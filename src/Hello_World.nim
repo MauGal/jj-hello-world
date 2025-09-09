@@ -4,4 +4,5 @@
 
 when isMainModule:
   echo("Hello, World!")
+  echo("GoodBye, World!!!")
  
