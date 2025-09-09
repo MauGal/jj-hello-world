@@ -3,7 +3,15 @@
 # E questo è una linea di commento aggiunta per vedere come funziona jj
 # JJ inizia a piacermi
 
+proc Hello_World() =
+  echo "Hello World!!!"
+  
+proc GoodBye_World() =
+  echo "GoodBye, World!!!"
+  
 when isMainModule:
-  echo("Hello, World!")
+  Hello_World()
+  GoodBye_World()
+  
 
  
