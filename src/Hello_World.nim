@@ -3,15 +3,13 @@
 # E questo è una linea di commento aggiunta per vedere come funziona jj
 # JJ inizia a piacermi
 
-proc Hello_World() =
-  echo "Hello World!!!"
-  
-proc GoodBye_World() =
-  echo "GoodBye, World!!!"
+# Una funzione che fa la somma di 2 numeri
+proc add(a,b: int): int =
+  return a + b
   
 when isMainModule:
-  Hello_World()
-  GoodBye_World()
+  echo "Hello World!!!"
+  echo "GoodBye, World!!!"
   
 
  
