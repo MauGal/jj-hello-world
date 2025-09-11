@@ -9,7 +9,6 @@ proc add(a,b: int): int =
   
 when isMainModule:
   echo "Hello World!!!"
-  echo "GoodBye, World!!!"
-  
+
 
  
