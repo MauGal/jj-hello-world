@@ -6,7 +6,8 @@
 # Una funzione che fa la somma di 2 numeri
 proc add(a,b: int): int =
   return a + b
-  
+
+# Questa è la parte che viene avviata quando si crea exe  
 when isMainModule:
   echo "Hello World!!!"
 
