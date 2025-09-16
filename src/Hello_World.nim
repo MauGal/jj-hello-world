@@ -7,7 +7,7 @@
 proc add(a,b: int): int =
   return a + b
 
-# Questa è la parte che viene avviata quando si crea exe  
+# Questa è la parte che viene avviata quando si crea il file binario
 when isMainModule:
   echo "Hello World!!!"
 
